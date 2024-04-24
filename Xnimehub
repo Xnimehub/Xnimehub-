@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xnimehub</title>
+    <style>
+        body {
+            background-color: #222;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+            justify-items: center;
+        }
+
+        .image {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Xnimehub</h1>
+        <div class="image-grid">
+            <img class="image" src="image1.jpg" alt="Image 1">
+            <img class="image" src="image2.jpg" alt="Image 2">
+            <img class="image" src="image3.jpg" alt="Image 3">
+            <!-- Add more images here -->
+        </div>
+    </div>
+</body>
+
+</html>
